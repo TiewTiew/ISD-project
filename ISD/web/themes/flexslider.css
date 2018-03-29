@@ -283,20 +283,13 @@ html[xmlns] .flexslider .slides {
 
 .flex-direction-nav a:before{ color: #000}
 
-.slide1{ background: url("../pictures/game2.jpg") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold }
-.slide2{ background: url("../pictures/lanevent.jpg") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold}
-.slide3{ background: url("../pictures/education.jpg") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold}
-.slide4{ background: url("../pictures/career.jpg") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold}
-.slide5{ background: url("../pictures/others.JPG") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold}
+.slide1{ background: url("../pictures/bloodbank1.jpg") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold }
+.slide2{ background: url("../pictures/bloodbank2.JPG") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold}
+.slide3{ background: url("../pictures/bloodbank3.jpg") no-repeat center; min-height: 750px; position: relative; background-size: cover; font-weight: bold}
+
 
 .tag{ position: absolute; right: 0;  bottom: 0;  height: 50px; background: #ED3051; width: 100%; text-transform: uppercase; color: #fff;font-family: "Conv_AdobeGothicStd-Bold",Arial; text-align: center; display: table}
 .tag p{ display: table-cell; vertical-align: middle; height: 50px; text-align: center; width: 100%; line-height: 16px}
 .tag img{ position: absolute; left: 50%; width: 200px !important; margin-left: -100px; bottom: 40px; text-align: center;vertical-align: middle;}
 
-.slide2 .tag{ background: #98CFD3; cursor: pointer;}
-.slide4 .tag{ color: #0C0D37}
-.slide5 .tag{ color: #E63051; background: #ECECED;}
-.slide6 .tag{ color: #E63051; background: #91C8CC;}
-.slide6 .tag p{ font-size: 20px}
 
-.slide4 .tag img{  bottom: 50px;}
