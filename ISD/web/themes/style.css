@@ -17,7 +17,7 @@ body {
 /* -------------- Menu bar------------------- */
 
 .topnav {
-    background-color: #333;
+    background-color: white;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -31,7 +31,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: gray;
     text-align: center;
     padding: 17px 20px;
     text-decoration: none;
@@ -148,10 +148,10 @@ body.home{
     font-weight:500;
     line-height: 22px;
     margin-bottom: 80px;
-    margin-left: 351.5px;
-    margin-right: 351.5px;
-    margin-top: -170px;
-    max-width: 1200px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: -150px;
+    max-width: 1800px;
     position:relative;
     z-index: 100;
 }
@@ -162,7 +162,7 @@ body.home{
     float: left;
     padding-left: 15px;
     padding-right: 15px;
-    width: 400px;
+    width: 380px;
 }
 
 .box{
@@ -182,18 +182,18 @@ body.home{
     display:block;
     width: 100%;
     float: left;
-    height: 65px;
+    height: 85px;
     padding-left: 15px;
     padding-right: 15px;
-    width: 256px;
+    width: 330px;
 }
 
 .center{
     box-sizing: border-box;
     display: block;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 15px;
+    line-height: 19px;
     position: relative;
 }
 
@@ -208,8 +208,8 @@ body.home{
 .imgcenter img{
     box-sizing: border-box;
     display: block;
-    height: 55px;
-    width: 55px;
+    height: 70px;
+    width: 70px;
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 15px;
@@ -221,7 +221,7 @@ body.home{
 .buttoncontent h3{
     color: dimgrey;
     display: block;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 900;
     line-height: 23px;
     margin-top: 15px;
@@ -236,6 +236,17 @@ body.home{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+}
+
+.row2{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 1.1em;
+    text-align: left;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wrapper{
@@ -272,7 +283,15 @@ body.home{
     line-height: 30px;
     margin-bottom: 16px;
 }
-
+.circcolumn{
+    display:block;
+    width: 100%;
+    float: left;
+    height: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 256px;
+}
 .circle{
     
     line-height:19px;
