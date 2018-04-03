@@ -3,20 +3,6 @@
 
 <head>
     <link rel=stylesheet href="themes/style.css" type="text/css">
-    <script>
-        // When the user scrolls down from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("go-top").style.display = "block";
-            } else {
-                document.getElementById("go-top").style.display = "none";
-            }
-        }
-    </script>
     <title>Login</title>
 </head>
 
@@ -46,10 +32,8 @@
             <input type="submit" name="submit" id="submit" value="Login"><br/><br/>
 
             <a href="" onclick="alert('Please contact Oracle Blood Bank committee to change your password.')">Forgot your password ?</a>&nbsp;&nbsp;&nbsp; <a href="register.jsp">Sign Up a new Account</a>
-
         </form>
     </div>
-    <button onclick="topFunction()" id="go-top" title="Go to top">Back to top &#8593;</button>
 
     <footer>Oracle Blood Bank<sup>&reg;</sup> All Rights Reserved</footer>
 </body>
